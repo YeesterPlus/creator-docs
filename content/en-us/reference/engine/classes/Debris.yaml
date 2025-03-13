@@ -3,11 +3,13 @@ type: class
 category: Utility
 memory_category: Instances
 summary: |
-  Allows scheduling the guaranteed destruction of an object without yielding.  
+  Allows scheduling the destruction of an object without yielding.  
   .
 description: |
-  The **Debris** service allows scheduling guaranteed destruction of an object
+  The **Debris** service allows scheduling destruction of an object
   without yielding.
+
+  Warning: Do not assign parts with nan chordnates. If you do so it will break.
 
   #### Advantages
 
